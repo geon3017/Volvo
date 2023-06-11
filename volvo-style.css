@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+header .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+header .main-menu .menu{
+  display: flex;
+  margin: 0 15px;
+}
+header .main-menu .menu li{
+  padding: 0 10px;
+  font-size: var(--font-size-18);
+  font-family: var(--main-font-);
+  font-weight: 500;
+}
+header .main-menu .loge{
+  background: url(./images/Volvo_logo.png) no-repeat 50% / contain;
+  width: 130px; height: 30px;
+  text-indent: -9999px;
+  margin-left: 15px;
+  
+}
+
+header .main-volov img{
+  width: 100%;
+  position: relative;
+}
+header .main-volov h2{
+  position: absolute;
+  top: 250px; left: 65px;
+  font-size: var(--font-size-30);
+  font-family: var(--main-font-);
+  font-weight: 700;
+  color: #fff;
+}
+
+/***** RECHARGE Model *****/
+.Model{
+  margin: 90px 0 70px;
+}
+.Model h2{
+  margin: 45px;
+  font-size: var(--font-size-35);
+  font-family: var(--main-font-);
+  font-weight: 700;
+}
+.Model .sub-menu{
+  display: flex;
+}
+.Model .sub-menu img{
+  width: 50vw;
+}
+.Model .sub-menu li{
+  margin: 0 30px;
+}
+.Model .sub-menu li p{
+  margin: 28px 8px 15px;
+  font-size: var(--font-size-20);
+  font-family: var(--main-font-);
+  font-weight: 700;
+}
+.Model .sub-menu li span{
+  margin-left: 8px;
+  font-size: var(--font-size-18);
+  font-family: var(--main-font-);
+  font-weight: 500;
+}
+
+/***** xc90 *****/
+.xc90{
+  position: relative;
+}
+.xc90 img{
+  width: 100%;
+}
+.xc90 .volvo-text{
+  position: absolute;
+  top: 0; left: 5%;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+.xc90 .volvo-text h3{
+  font-size: var(--font-size-18);
+  font-family: var(--main-font-);
+}
+.xc90 .volvo-text h2{
+  font-size: var(--font-size-35);
+  font-family: var(--main-font-);
+  font-weight: 700;
+  margin-top: 25px;
+}
+.xc90 .volvo-text .btn{
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+.xc90 .volvo-text .btn li{
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 10px;
+  color: #222;
+  font-family: var(--main-font-);
+  font-size: var(--font-size-18);
+  font-weight: 600;
+  width: 125px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  margin: 30px  50px;
+}
+.xc90 .volvo-text .btn li:hover{
+  background-color: rgba(0, 123, 255, 0.88);
+  color: #fff;
+}
+
+/***** car-menu *****/
+.car-menu{
+  margin-top: 20vw;
+  display: flex;
+  
+}
+.car-menu li{
+  background-color: #ddd;
+  position: relative;
+}
+.car-menu img{  
+  width: 60vw;
+} 
+.car-menu li div{
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-18);
+  font-family: var(--main-font-);
+}
