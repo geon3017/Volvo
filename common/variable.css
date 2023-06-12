@@ -6,6 +6,7 @@
   --font-size-14:0.875rem;
   --font-size-16:1rem;
   --font-size-18:1.125rem;
+  --font-size-19:1.188rem;
   --font-size-20:1.25rem;
   --font-size-21:1.313rem;
   --font-size-24:1.5rem;
@@ -19,4 +20,6 @@
   --font-size-129:8.118rem;
 
   --main-font-: 'Noto Sans KR', 'Nanum Gothic',"맑은고딕",Malgun Gothic,"돋움",dotum,AppleGothic,Arial ;
+
+  --main-font-color-: #222;
 }
