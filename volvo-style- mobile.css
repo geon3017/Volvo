@@ -56,7 +56,7 @@ header .main-volov img{
 header .main-volov h2{
   position: absolute;
   top: 250px; left: 65px;
-  font-size: var(--font-size-30);
+  font-size: min(var(--font-size-30))/*var(--font-size-30)*/;
   font-family: var(--main-font-);
   font-weight: 700;
   color: #fff;
