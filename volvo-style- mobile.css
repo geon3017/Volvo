@@ -1,7 +1,7 @@
 @charset "utf-8";
 html{
   overflow-x: hidden; overflow-y: auto;
-  text-size-adjust: inherit;
+  text-size-adjust: none;
 }
 body{
   overflow-x: hidden; overflow-y: auto;
@@ -52,11 +52,14 @@ header .main-menu .loge img{
 header .main-volov img{
   width: 100%;
   position: relative;
-}
+ }
 header .main-volov h2{
   position: absolute;
-  top: 250px; left: 65px;
-  font-size: min(var(--font-size-30))/*var(--font-size-30)*/;
+  top: 27%;
+  left: 12%;
+  transform: translate(-50, -50%);
+  /* top: 56vw; left: 8vw; */
+  font-size: clamp(1.5rem, 5vw, 3rem); /*var(--font-size-30)*/;
   font-family: var(--main-font-);
   font-weight: 700;
   color: #fff;
@@ -68,7 +71,7 @@ header .main-volov h2{
 }
 .Model h2{
   margin: 45px;
-  font-size: var(--font-size-35);
+  font-size: clamp(2rem, 5vw, 3rem); /*var(--font-size-35)*/;
   font-family: var(--main-font-);
   font-weight: 700;
 }
@@ -103,9 +106,12 @@ header .main-volov h2{
 }
 .xc90 .volvo-text{
   position: absolute;
-  top: 0; left: 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* top: 0; left: 5vw;  */
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   color: #fff;
 }
 .xc90 .volvo-text h3{
