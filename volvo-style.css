@@ -17,11 +17,16 @@ header .main-menu .menu li{
   font-weight: 500;
 }
 header .main-menu .loge{
-  background: url(./images/Volvo_logo.png) no-repeat 50% / contain;
-  width: 130px; height: 30px;
-  text-indent: -9999px;
-  margin-left: 15px;
-  
+  /* background: url(./images/Volvo_logo.png) no-repeat 50% / contain; */
+  /* width: 130px; height: 30px; */
+  /* text-indent: -9999px; */
+  margin-left: 25px;
+}
+header .main-menu .loge img{
+  object-fit: cover;
+  width: 180px;
+  margin-top: 5px;
+
 }
 
 header .main-volov img{
@@ -116,6 +121,7 @@ header .main-volov h2{
 .xc90 .volvo-text .btn li:hover{
   background-color: rgba(0, 123, 255, 0.88);
   color: #fff;
+  transition: 0.4s;
 }
 
 /***** car-menu *****/
