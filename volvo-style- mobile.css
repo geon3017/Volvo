@@ -50,22 +50,23 @@ header .main-menu .loge img{
 }
 header .main-volov{
   position: relative;
-
 }
 
 header .main-volov img{
   width: 100%;
- 
  }
  
 header .main-volov h2{
   position: absolute;
-  top: 42%;
+  top: 43%;
+  left: 20%;
+  transform: translate(-12%, -50%);
+  /* top: 42%;
   left: 35%;
-  transform: translate(-22%, -50%);
+  transform: translate(-22%, -50%); */
   text-align: center;
   /* font-size: var(--font-size-25); */
-  font-size: clamp(1.1rem,5vw,1.563rem);
+  font-size: clamp(1.46rem,6vw,1.563rem);
 
   font-family: var(--main-font-);
   font-weight: 700;
@@ -323,13 +324,12 @@ header .main-volov h2{
 footer{
   background-color: #222;
   color: #fff;
-  font-size: var(--font-size-25);
+  font-size: var(--font-size-20);
 }
 footer div h2{
+  padding-top: 20px;
   margin-left: 20px;
-}
-footer div h2:first-child{
-  padding-top: 30px;
+  text-transform: uppercase;
 }
 footer div h3{
   display: flex;
