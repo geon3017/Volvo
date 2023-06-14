@@ -69,6 +69,9 @@ header .main-volov h2{
 }
 
 /***** RECHARGE Model *****/
+.Model .tablet .tablet-text{
+  display: none;
+}
 .Model{
   margin: 60px 0 70px;
 }
@@ -161,7 +164,7 @@ header .main-volov h2{
   
 }
 .car-menu li{
-  background-color: rgba(221, 221, 221, 0.8);
+  background-color: #f7f7f7;
   position: relative;
   margin: 0 20px;
   width: 400px;
@@ -220,7 +223,7 @@ header .main-volov h2{
   margin-top: 8vw;
 }
 .electric-part ul li{
-  background-color: rgba(221, 221, 221, 0.8);
+  background-color: #f7f7f7;
   margin: 0 5px;
   position: relative;
 }
@@ -253,7 +256,7 @@ header .main-volov h2{
 }
 /**** xc90-banner ****/
 .xc90-banner{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .xc90-banner .xc90-volvo{
   position: relative;
@@ -326,6 +329,7 @@ footer{
 footer div h2{
   margin: 0 20px;
   padding-top: 20px;
+  text-transform: uppercase;
 }
 footer div h2 a{
   display: flex;
@@ -339,11 +343,24 @@ footer div h2 a{
 
 footer div h3{
   display: flex;
-  justify-content: right; 
-  margin-right: 40px;
+  justify-content: left; 
+  margin-left: 30px;
   font-size: var(--font-size-12);
 }
 footer .footer-text{
   padding-bottom: 20px;
-  line-height: 1.6;
+}
+
+footer .footer-text ul{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 30px;
+} 
+footer .footer-text ul li{
+  padding: 0 7px;
+}
+footer .footer-text ul svg{
+  width: 15px;
 }

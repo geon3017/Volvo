@@ -1,8 +1,81 @@
 @charset "utf-8";
 
 @media (width >= 768px){
-  header .main-menu .menu li{
-    padding: 0 50px;
+  header .main-menu .menu{
+    margin-right: 50px;
+  }
+  header .main-menu .loge{
+    margin-left: 50px;
+  }
+  header .main-menu .loge img{
+    width: 180px;
+  }
+  header .main-volov{
+    position: relative;
+  }
+  
+  header .main-volov img{
+    width: 100%;
+  }
+  header .main-volov h2{
+    position: absolute;
+    top: 45%; left: 24%; 
+    transform: translate(-15%, -100%);
+    text-align: center;
+    font-size: clamp(2.9rem, -0.0625rem + 6.1719vw, 4.875rem);
+    /* font-size: 2.9rem; min */
+    /* font-size: 4.875rem max; */
+    font-family: var(--main-font-);
+    font-weight: 700;
+    color: #fff;
+  }
+
+/***** Model ******/
+  .Model{
+   margin: 0;
+  }
+  .Model .tablet{
+    display: block;
+    float: left;
+    background: url(./images/xc90-banner-mobile.png) no-repeat 100% / cover;
+    /* text-indent: -9999px; */
+    width: 60%;
+    height: 50vw;
+    position: relative;
+  }
+  .Model .tablet .tablet-text{
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    font-size: clamp(1.563rem, 5vw, 3rem);
+    font-family: var(--main-font-);
+  }
+  .Model h2{
+    position: absolute;
+    top: 0; left: 0;
+    margin: 0 30px;
+    /*font-size: clamp(1.563rem, 5vw, 3rem);*/ font-size: var(--font-size-35);
+    font-family: var(--main-font-);
+    font-weight: 700;
+  }
+  .Model .sub-menu{
+    position: relative;
+    display: flex;
+  }
+  .Model .sub-menu img{
+    width: 20vw;
+  }
+  .Model .sub-menu li{
+    margin: 0 30px;
+  }
+  .Model .sub-menu li p{
+    margin: 20px 8px 10px;
+    font-size: var(--font-size-20);
+    font-family: var(--main-font-);
+    font-weight: 700;
+  }
+  .Model .sub-menu li span{
+    margin-left: 8px;
     font-size: var(--font-size-18);
     font-family: var(--main-font-);
     font-weight: 500;
