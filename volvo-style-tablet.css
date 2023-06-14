@@ -46,27 +46,34 @@
   .Model .tablet .tablet-text{
     display: block;
     position: absolute;
-    top: 0; left: 0;
+    top: 50px; left: 50px;
     font-size: clamp(1.563rem, 5vw, 3rem);
+    color: #fff;
+  }
+  .Model .tablet .tablet-text h3{
+    font-weight: 700;
     font-family: var(--main-font-);
+  }
+  .Model .tablet .tablet-text h3:nth-child(2){
+    margin-top: 10px;
+    margin-left: 35px;
   }
   .Model h2{
     position: absolute;
-    top: 0; left: 0;
-    margin: 0 30px;
+    top: 100px; left: 50px;
+    margin: 0 50px;
     /*font-size: clamp(1.563rem, 5vw, 3rem);*/ font-size: var(--font-size-35);
     font-family: var(--main-font-);
     font-weight: 700;
   }
   .Model .sub-menu{
-    position: relative;
     display: flex;
   }
   .Model .sub-menu img{
-    width: 20vw;
+    width: 30vw;
   }
   .Model .sub-menu li{
-    margin: 0 30px;
+    margin: 120px 0  0 30px ;
   }
   .Model .sub-menu li p{
     margin: 20px 8px 10px;
