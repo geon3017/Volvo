@@ -252,6 +252,10 @@ header .main-volov h2{
 .electric-part  ul li h4 a:hover{
   color: #222;
 }
+.electric-part  ul li p{
+ display: none;
+}
+
 /**** xc90-banner ****/
 .xc90-banner{
   margin-top: 50px;
