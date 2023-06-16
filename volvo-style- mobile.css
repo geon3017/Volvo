@@ -310,7 +310,7 @@ header .main-volov h2{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   margin-bottom: 20px;
 }
 .xc90-banner .service ul li{
@@ -319,9 +319,9 @@ header .main-volov h2{
   font-family: var(--main-font-);
   font-weight: 400;
 }
-.xc90-banner .service ul li:nth-child(2){
-  margin-bottom: 5px;
-}
+/* .xc90-banner .service ul li:nth-child(2){
+  /* margin-bottom: 5px;
+} */
 
 
 

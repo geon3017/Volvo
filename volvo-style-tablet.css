@@ -267,6 +267,7 @@
     margin: 0 35px;
   }
 
+/***** xc90-banner ****/
   .xc90-banner{
     background-color: #eee;
   }
@@ -295,16 +296,64 @@
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     margin-bottom: 20px;
   }
   .xc90-banner .service ul li{
-    margin: 0 25px;
+    margin: 0 3vw;
     font-size: clamp(1.1875rem, -0.0313rem + 2.5391vw, 2rem);
     font-family: var(--main-font-);
     font-weight: 400;
   }
-  .xc90-banner .service ul li:nth-child(2){
-    margin-bottom: 8px;
+
+
+/***** footer ******/
+
+  footer{
+    background-color: #222;
+    color: #fff;
+    font-size: clamp(1.5625rem, -0.4063rem + 4.1016vw, 2.875rem);
+  }
+  footer div h2{
+    margin: 0 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+  footer div h2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw; height: 8vw ; /* 7vh 13vh*/
+    border: 3px solid #ddd;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 300;
+    font-family: var(--main-font-);
+  }
+  
+  
+  footer div h3{
+    display: none;
+    /* display: flex; */
+    justify-content: left; 
+    margin-left: 30px;
+    font-size: var(--font-size-12);
+  }
+  footer .footer-text{
+    padding-bottom: 20px;
+  }
+  
+  footer .footer-text ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 50px;
+  } 
+  footer .footer-text ul li{
+    padding: 0 20px;
+  }
+  footer .footer-text ul svg{
+    width: 5vw; height: 5vw;
   }
 }
