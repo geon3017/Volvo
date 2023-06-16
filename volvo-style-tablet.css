@@ -58,11 +58,10 @@
     margin-left: 35px;
   }
   .Model h2{
-    height: 50px;
-    margin: 0 0 0 490px;
+    display: block;
+    height: 7vw;
+    margin: 0 0 0 63vw; /*800px*/
     padding-top: 30px;
-    /* margin: 0 0 20px 100px; */
-    /* padding-top: 30px; */
     font-size: clamp(1.5625rem, -0.6875rem + 4.6875vw, 3.0625rem);
     font-family: var(--main-font-);
     font-weight: 700;
