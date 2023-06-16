@@ -305,9 +305,15 @@
   footer{
     background-color: #222;
     color: #fff;
-    font-size: clamp(1.5625rem, -0.4063rem + 4.1016vw, 2.875rem);
+    font-size: clamp(1.25rem, 0.0313rem + 2.5391vw, 2.0625rem);
+  }
+  footer .grid ul{
+    display: flex;
+    justify-content: space-between;
   }
   footer div h2{
+    display: block;
+    float: left;
     margin: 0 20px;
     padding-top: 20px;
     text-transform: uppercase;
@@ -326,11 +332,12 @@
   
   
   footer div h3{
-    display: none;
-    /* display: flex; */
-    justify-content: left; 
-    margin-left: 30px;
-    font-size: var(--font-size-12);
+    /* display: none; */
+    display: block;
+    clear: both;
+    text-align: right;
+    margin: 50px  50px;
+    font-size: clamp(1.25rem, -0.1563rem + 2.9297vw, 2.1875rem);
   }
   footer .footer-text{
     padding-bottom: 20px;
