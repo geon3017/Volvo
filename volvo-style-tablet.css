@@ -225,28 +225,34 @@
   }
   .electric-part ul li{
     background-color: #f7f7f7;
-    margin: 0 5px;
+    margin: 0 10px;
     position: relative;
+    width: 50vw;
+    /* height: 42vw; */
   }
   .electric-part  ul li img{
-    width: 46vw;
-    margin-top: 10vw;
+    width: 32vw;
+    margin: 0;
+    z-index: auto;
+    margin-left: 15vw;
+    /* margin-bottom: 50vw; */
+    /* margin-top: 1vw; */
   }
 
   .electric-part  ul li h3{
     font-family: var(--main-font-);
-    font-size: clamp(0.813rem,3vw,1rem) /*var(--font-size-16)*/;
+    font-size: clamp(1.5rem, -0.6rem + 4.375vw, 2.9rem);
     font-weight: 600;
-    margin: 10px 15px;
+    margin: 30px 35px;
 
   }
   .electric-part  ul li h4{
     position: absolute;
-    top: 12vw;
+    top: 16vw;
     font-family: var(--main-font-);
-    font-size: var(--font-size-14);
+    font-size: clamp(1.25rem, -0.1563rem + 2.9297vw, 2rem);
     font-weight: 500;
-    margin: 0 15px;
+    margin: 110px 35px;
   }
   .electric-part  ul li h4 a{
     color: rgba(0, 123, 255, 0.88);
@@ -256,6 +262,49 @@
   }
   .electric-part  ul li p{
     display: block;
+    font-size: clamp(1rem, -0.3125rem + 2.7344vw, 1.875rem);
     font-family: var(--main-font-);
+    margin: 0 35px;
+  }
+
+  .xc90-banner{
+    background-color: #eee;
+  }
+  .xc90-banner .service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+  }
+  .xc90-banner .service h2{
+    font-size: clamp(1.875rem, 0.9375rem + 1.9531vw, 2.5rem);
+    font-family: var(--main-font-);
+    font-weight: 700;
+    margin-left:10px;
+  }
+  .xc90-banner .service img{  
+    width: 4vw;
+    display: block;
+    margin: 30px auto 13px;
+    transition: 0.5s;
+  }
+  .xc90-banner .service img:hover{
+    transform: scale(2);
+  }
+  .xc90-banner .service ul{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .xc90-banner .service ul li{
+    margin: 0 25px;
+    font-size: clamp(1.1875rem, -0.0313rem + 2.5391vw, 2rem);
+    font-family: var(--main-font-);
+    font-weight: 400;
+  }
+  .xc90-banner .service ul li:nth-child(2){
+    margin-bottom: 8px;
   }
 }
