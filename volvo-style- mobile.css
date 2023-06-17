@@ -36,6 +36,10 @@ header .main-menu .menu li{
   font-family: var(--main-font-);
   font-weight: 500;
 }
+header .main-menu .menu .none{
+  display: none;
+  /* margin: 0; */
+}
 header .main-menu .loge{
   /* background: url(./images/Volvo_logo.png) no-repeat 50% / contain; */
   /* width: 130px; height: 30px; */
