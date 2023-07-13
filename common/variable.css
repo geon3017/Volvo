@@ -26,7 +26,7 @@
   --font-size-48:3rem;
   --font-size-129:8.118rem;
 
-  --main-font-: 'Noto Sans KR', 'Nanum Gothic',"맑은고딕",Malgun Gothic,"돋움",dotum,AppleGothic,Arial ;
-
+  --main-font-kr: 'Noto Sans KR', 'Nanum Gothic',"맑은고딕",Malgun Gothic,"돋움",dotum,AppleGothic,Arial ;
+  --main-font-en: 'NanumSquareNeo-Variable', 'Nanum Gothic',"맑은고딕",Malgun Gothic,"돋움",dotum,AppleGothic,Arial;
   --main-font-color-: #222;
 }
