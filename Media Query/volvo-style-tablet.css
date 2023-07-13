@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+@media (width >= 768px){
+  header .main-menu .menu{
+    margin-right: 50px;
+  }
+  header .main-menu .loge{
+    margin-left: 50px;
+  }
+  header .main-menu .loge img{
+    width: 180px;
+  }
+  header .main-volov{
+    position: relative;
+  }
+  header .main-volov img{
+    width: 100%;
+  }
+  header .main-volov h2{
+    position: absolute;
+    top: 45%; left: 24%; 
+    transform: translate(-15%, -100%);
+    text-align: center;
+    font-size: clamp(2.9rem, -0.0625rem + 6.1719vw, 4.875rem);
+    /* font-size: 2.9rem; min */
+    /* font-size: 4.875rem max;*/
+    font-family: var(--main-font-);
+    font-weight: 700;
+    color: #fff;
+  }
+
+/***** Model ******/
+  .Model{
+   margin: 0;
+  }
+  .Model .tablet{
+    display: block;
+    float: left;
+    background: url(../images/xc90-banner-mobile.png) no-repeat 100% / cover;
+    width: 60%;
+    height: 50vw;
+    position: relative;
+  }
+  .Model .tablet .tablet-text{
+    display: block;
+    position: absolute;
+    top: 50px; left: 50px;
+    font-size: clamp(1.563rem, 5vw, 3rem);
+    color: #fff;
+  }
+  .Model .tablet .tablet-text h3{
+    font-weight: 700;
+    font-family: var(--main-font-);
+  }
+  .Model .tablet .tablet-text h3:nth-child(2){
+    margin-top: 10px;
+    margin-left: 35px;
+  }
+  .Model h2{
+    display: block;
+    height: 7vw;
+    margin: 0 0 0 63vw; /*800px*/
+    padding-top: 30px;
+    font-size: clamp(1.5625rem, -0.6875rem + 4.6875vw, 3.0625rem);
+    font-family: var(--main-font-);
+    font-weight: 700;
+  }
+  .Model .sub-menu{
+    display: flex;
+  }
+  .Model .sub-menu img{
+    width: 30vw;
+  }
+  .Model .sub-menu li{
+    margin: 50px 15px 0 25px;
+  }
+  .Model .sub-menu li p{
+    margin: 15px 8px 0;
+    font-size: clamp(1.25rem, -0.1563rem + 2.9297vw, 2.1875rem);
+    font-family: var(--main-font-);
+    font-weight: 700;
+  }
+  .Model .sub-menu li span{
+    margin-left: 8px;
+    font-size: clamp(1.125rem, 0.1875rem + 1.9531vw, 1.75rem);
+    font-family: var(--main-font-);
+    font-weight: 500;
+  }
+
+/***** xc90 ******/
+  .xc90{
+    position: relative;
+  }
+  .xc90 img{
+    width: 100%;
+    
+  }
+  .xc90 .volvo-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .xc90 .volvo-text h3{
+    font-size: clamp(1.4375rem, 0.1438rem + 2.6953vw, 2.3rem);
+    font-family: var(--main-font-);
+  }
+  .xc90 .volvo-text h2{
+    font-size: clamp(3.5rem, -0.1rem + 7.5vw, 5.9rem);
+    font-family: var(--main-font-);
+    font-weight: 700;
+    margin: 60px 0 2vw;
+  }
+  .xc90 .volvo-text .btn{
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    
+
+  }
+  .xc90 .volvo-text .btn li{
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 10px;
+    color: #222;
+    font-family: var(--main-font-);
+    font-size: clamp(1.3125rem, 0rem + 2.7344vw, 2.1875rem);
+    font-weight: 600;
+    width: 20vw;
+    padding: 20px;
+    margin: 40px  70px;
+  }
+  .xc90 .volvo-text .btn li:hover{
+    background-color: rgba(0, 123, 255, 0.88);
+    color: #fff;
+    transition: 0.4s;
+  }
+
+
+
+  /****** car-menu *******/
+
+  .car-menu{
+    margin-top: 9vw;
+    display:grid;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+  }
+  .car-menu li{
+    background-color: #f7f7f7;
+    position: relative;
+    /* margin: 0 auto; */
+    width: auto;
+    height: 30vw;
+    overflow: hidden;
+  }
+  .car-menu img{  
+    width: 27vw;
+    margin-top: 15vw;
+    position: relative;
+    left: 40%;
+  } 
+  .car-menu li img:hover{
+    position: absolute;
+    right: -40%;
+    transform: translatex(-40%);
+    transition: 1s;
+  }
+  .car-menu li div{
+    position: absolute;
+    top: 15px; left: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: clamp(1.125rem, 0rem + 2.3438vw, 1.875rem);
+    font-family: var(--main-font-);
+  }
+  .car-menu li div h3{
+    font-weight: 700;
+  }
+
+  /***** xc90-banner ******/
+  .xc90-banner .xc90-volvo{
+    display: none;
+  }
+
+  /**** electric-part ****/
+  .electric-part{
+    margin-top: 7vw;
+  }
+  .electric-part .electric{
+    text-align: center;
+  }
+  .electric-part .electric h1{
+    font-size: clamp(2.5rem, 0.55rem + 4.0625vw, 3.8rem);
+    font-family: var(--main-font-);
+    font-weight: 600;
+    color: var(--main-font-color-);
+    margin-bottom: 15px;
+    margin: 0 25px 15px;
+  }
+  .electric-part .electric h3{
+    font-size: clamp(1.0625rem, 0.3125rem + 1.5625vw, 1.5625rem);
+    font-family: var(--main-font-);
+    font-weight: 400;
+    color: var(--main-font-color-);
+    margin: 0 14px;
+  }
+  .electric-part ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+  }
+  .electric-part ul li{
+    background-color: #f7f7f7;
+    margin: 0 10px;
+    position: relative;
+    width: 50vw;
+    /* height: 42vw; */
+  }
+  .electric-part  ul li img{
+    width: 32vw;
+    margin: 0;
+    z-index: auto;
+    margin-left: 15vw;
+    /* margin-bottom: 50vw; */
+    /* margin-top: 1vw; */
+  }
+
+  .electric-part  ul li h3{
+    font-family: var(--main-font-);
+    font-size: clamp(1.5rem, -0.6rem + 4.375vw, 2.9rem);
+    font-weight: 600;
+    margin: 30px 35px;
+
+  }
+  .electric-part  ul li h4{
+    position: absolute;
+    top: 16vw;
+    font-family: var(--main-font-);
+    font-size: clamp(1.25rem, -0.1563rem + 2.9297vw, 2rem);
+    font-weight: 500;
+    margin: 110px 35px;
+  }
+  .electric-part  ul li h4 a{
+    color: rgba(0, 123, 255, 0.88);
+  }
+  .electric-part  ul li h4 a:hover{
+    color: #222;
+  }
+  .electric-part  ul li p{
+    display: block;
+    font-size: clamp(1rem, -0.3125rem + 2.7344vw, 1.875rem);
+    font-family: var(--main-font-);
+    margin: 0 35px;
+  }
+
+/***** xc90-banner ****/
+  .xc90-banner{
+    background-color: #eee;
+  }
+  .xc90-banner .service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+  }
+  .xc90-banner .service h2{
+    font-size: clamp(1.875rem, 0.9375rem + 1.9531vw, 2.5rem);
+    font-family: var(--main-font-);
+    font-weight: 700;
+    margin-left:10px;
+  }
+  .xc90-banner .service img{  
+    width: 4vw;
+    display: block;
+    margin: 30px auto 13px;
+    transition: 0.5s;
+  }
+  .xc90-banner .service img:hover{
+    transform: scale(2);
+  }
+  .xc90-banner .service ul{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+  }
+  .xc90-banner .service ul li{
+    margin: 0 3vw;
+    font-size: clamp(1.1875rem, -0.0313rem + 2.5391vw, 2rem);
+    font-family: var(--main-font-);
+    font-weight: 400;
+  }
+
+
+/***** footer ******/
+
+  footer{
+    background-color: #222;
+    color: #fff;
+    font-size: clamp(1.25rem, 0.0313rem + 2.5391vw, 2.0625rem);
+  }
+  footer .grid ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div h2{
+    display: block;
+    float: left;
+    margin: 0 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+  footer div h2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw; height: 8vw ; /* 7vh 13vh*/
+    border: 3px solid #ddd;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 300;
+    font-family: var(--main-font-);
+  }
+  
+  
+  footer div h3{
+    /* display: none; */
+    display: block;
+    clear: both;
+    text-align: right;
+    margin: 50px  50px;
+    font-size: clamp(1.25rem, -0.1563rem + 2.9297vw, 2.1875rem);
+  }
+  footer .footer-text{
+    padding-bottom: 20px;
+  }
+  
+  footer .footer-text ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 50px;
+  } 
+  footer .footer-text ul li{
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  footer .footer-text ul svg{
+    width: 5vw; height: 5vw;
+  }
+}

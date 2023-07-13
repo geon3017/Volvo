@@ -16,4 +16,5 @@
 # https://layout.bradwoods.io/customize
 
 #Responsive Viewer
-# icon 변경
+## 230713 pc버전 수정완료 이미지추가 폰트 사이즈 수정완료
+## 230713 이미지 파일 정리 svg파일 정리

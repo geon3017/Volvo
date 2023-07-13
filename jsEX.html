@@ -40,21 +40,31 @@
     // ul > li : line-height, font-weight
     // ol > li : bgc
     
+	// 혼자여서 querySelector씀
     const title = document.querySelector('h1')
 		title.style.color = 'orange'
+		// 혼자여서 querySelector씀
     const text = document.querySelector('p')
 		text.style.border = 'thick solid tomato'
+		// 혼자여서 querySelector씀
     const list = document.querySelector('dl')
-		list.style.backgroundColor = 'green '
+		list.style.backgroundColor = '#ddd'
+		// 혼자여서 querySelector씀
     const div = document.querySelector('section')
 		div.style.border = 'thick solid blue'
+		// 혼자여서 querySelector씀
     const title2 = document.querySelector('h2')
 		title2.style.color = 'green'
-    const list1 = document.querySelector('ul')
-		list1.style.fontWeight = '700'
-		list1.style.lineHeight = '2'
-    const list2 = document.querySelector('ol')
-		list2.style.backgroundColor = '#eee'
+		// li가 여러개라서 querySelectorAll씀 
+    const list1 = document.querySelectorAll('ul > li')
+		list1[0].style.fontWeight = '700'
+		list1[1].style.lineHeight = '5'
+		// li가 여러개라서 querySelectoAllr씀
+    const list2 = document.querySelectorAll('ol > li')
+		list2[0].style.backgroundColor = '#eee'
+		list2[1].style.backgroundColor = 'green'
+		list2[2].style.backgroundColor = 'blue'
+		list2[3].style.backgroundColor = 'red'
     const lis = document.querySelectorAll('li')
 
   </script>
