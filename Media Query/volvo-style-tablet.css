@@ -333,7 +333,7 @@
     display: block;
     clear: both;
     text-align: right;
-    margin: 50px;
+    margin-top: 20px;
     font-size: 2.5vw;
   }
   footer .footer-text {
@@ -345,7 +345,7 @@
     justify-content: right;
     align-items: center;
     margin-top: 0;
-    margin-right: 50px;
+    margin-right: 5.5vw;
   }
   footer .footer-text ul li {
     padding: 0 10px;
