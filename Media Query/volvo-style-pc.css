@@ -81,12 +81,13 @@
   }
   .Model .sub-menu {
     display: flex;
+    overflow: hidden;
   }
   .Model .sub-menu img {
     width: 20vw;
   }
   .Model .sub-menu li {
-    margin: 100px 15px 0 60px;
+    margin: 0 30px;
   }
   .Model .sub-menu li p {
     margin: 15px 8px 0;
@@ -100,7 +101,18 @@
     font-family: var(--main-font-en);
     font-weight: 500;
   }
-
+  /****** swiper ******/
+  .Model .sub-menu .swiper-slide {
+    width: 16.5vw;
+    padding: 0 5vw 0 0;
+    height: 20vw;
+  }
+  .Model .sub-menu .swiper {
+    height: 30vw;
+  }
+  .back-color {
+    height: 40vw;
+  }
   /***** xc90 ******/
   .xc90 {
     position: relative;
@@ -112,7 +124,7 @@
   }
   .xc90 .back-img {
     background: url(../images/volvo-xc90-mobile.png) no-repeat 50% / cover;
-    margin-top: 10vw;
+    /* margin-top: 5vw; */
   }
   .xc90 .volvo-text {
     position: absolute;
@@ -163,13 +175,13 @@
     display: grid;
     place-items: center;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: auto;
   }
   .car-menu li {
     background-color: #eeee;
     position: relative;
-    width: 28vw;
+    width: 26vw;
     height: 20vw;
     overflow: hidden;
   }
@@ -199,6 +211,15 @@
   }
   .car-menu li div h4 {
     font-size: 1.2vw;
+  }
+  /****** swiper *******/
+  .car-menu .swiper-slide {
+    width: 22vw;
+    padding: 0 5vw 0 0;
+    height: 20vw;
+  }
+  .car-menu .swiper {
+    height: 30vw;
   }
 
   /***** xc90-banner ******/
@@ -321,43 +342,32 @@
     background-color: #222;
     color: #fff;
     font-size: 2vw;
-    height: 40vh;
+    height: 15vh;
   }
-  footer div h2 {
-    margin-left: 5vw;
-    padding-top: 50px;
+  footer .address-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    padding-top: 20px;
+  }
+  footer .address-text h2 {
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1vw;
   }
-  footer div h2 a {
+  footer .address-text h2 a {
     width: 15vw;
-    height: 5vw; /* 7vh 13vh*/
+    height: 3.5vw;
     border: 3px solid #ddd;
-    margin-top: 20px;
-    margin-left: 30px;
     font-weight: 300;
     font-family: var(--main-font-en);
   }
 
-  footer div h3 {
-    display: block;
-    /* text-align: right; */
-    margin-top: 30px;
-    font-size: 2vw;
+  footer .address-text h3 {
+    font-size: 1.5vw;
     font-family: var(--main-font-en);
   }
-
-  footer .footer-text ul {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 14.5vw;
-  }
-  footer .footer-text ul li {
+  footer .address-text li {
     padding: 0 20px;
-  }
-  footer .footer-text ul svg {
-    width: 2vw;
   }
 }

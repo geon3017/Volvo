@@ -33,6 +33,10 @@
   /***** Model ******/
   .Model {
     margin: 0;
+    padding: 0;
+  }
+  .Model .sub-menu {
+    overflow: hidden;
   }
   .Model .tablet {
     display: block;
@@ -67,15 +71,19 @@
     font-size: 2.8vw;
     font-family: var(--main-font-en);
     font-weight: 700;
+    background-color: #eee;
   }
   .Model .sub-menu {
     display: flex;
+    justify-content: center;
+    padding-bottom: 5vw;
   }
   .Model .sub-menu img {
     width: 30vw;
   }
   .Model .sub-menu li {
-    margin: 50px 15px 0 25px;
+    margin: 0 30px;
+    width: 7vw;
   }
   .Model .sub-menu li p {
     margin: 15px 8px 0;
@@ -89,7 +97,18 @@
     font-family: var(--main-font-en);
     font-weight: 500;
   }
-
+  /****** swiper ******/
+  .Model .sub-menu .swiper-slide {
+    width: 30vw;
+    padding: 0 5vw 0 0;
+    /* height: 40vw; */
+  }
+  .Model .sub-menu .swiper {
+    height: 42vw;
+  }
+  .back-color {
+    height: 50vw;
+  }
   /***** xc90 ******/
   .xc90 {
     position: relative;
@@ -144,16 +163,16 @@
   .car-menu {
     margin-top: 9vw;
     display: grid;
-    display: grid;
+
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
-    width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    width: 10vw;
   }
   .car-menu li {
     background-color: #f7f7f7;
     position: relative;
     /* margin: 0 auto; */
-    width: auto;
+    width: 35vw;
     height: 30vw;
     overflow: hidden;
   }
@@ -163,12 +182,12 @@
     position: relative;
     left: 40%;
   }
-  .car-menu li img:hover {
+  /* .car-menu li img:hover {
     position: absolute;
     right: -40%;
     transform: translatex(-40%);
     transition: 1s;
-  }
+  } */
   .car-menu li div {
     position: absolute;
     top: 15px;
@@ -180,6 +199,16 @@
   }
   .car-menu li div h3 {
     font-weight: 700;
+  }
+
+  /***** swiper *****/
+  .car-menu .swiper-slide {
+    width: 32vw;
+    padding: 0 5vw 0 0;
+    height: 30vw;
+  }
+  .car-menu .swiper {
+    height: 40vw;
   }
 
   /***** xc90-banner ******/
@@ -308,51 +337,33 @@
     display: flex;
     justify-content: space-between;
   }
-  footer div h2 {
+  footer .address-text h2 {
     display: block;
     float: left;
     margin: 0 20px;
-    padding-top: 20px;
     text-transform: uppercase;
   }
-  footer div h2 a {
+  footer .address-text h2 a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20vw;
     height: 5vw; /* 7vh 13vh*/
     border: 3px solid #ddd;
-    margin-top: 20px;
-    margin-left: 50px;
     font-weight: 300;
     font-family: var(--main-font-en);
   }
 
-  footer div h3 {
-    /* display: none; */
-    display: block;
-    clear: both;
-    text-align: right;
-    margin-top: 20px;
-    font-size: 2.5vw;
+  footer .address-text h3 {
+    font-size: 2vw;
   }
-  footer .footer-text {
-    padding-bottom: 20px;
+  footer .address-text .loge-svg {
+    margin-right: 50px;
   }
-
-  footer .footer-text ul {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-top: 0;
-    margin-right: 5.5vw;
+  footer .address-text .loge-svg li {
+    margin: 0 10px;
   }
-  footer .footer-text ul li {
-    padding: 0 10px;
-    margin-bottom: 30px;
-  }
-  footer .footer-text ul svg {
-    width: 3vw;
-    height: 3vw;
+  footer .address-text .loge-svg svg {
+    width: 2vw;
   }
 }
